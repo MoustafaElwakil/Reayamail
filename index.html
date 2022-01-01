@@ -1,1716 +1,415 @@
-<!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
-	<!--[if gte mso 15]>
-	<xml>
-		<o:OfficeDocumentSettings>
-		<o:AllowPNG/>
-		<o:PixelsPerInch>96</o:PixelsPerInch>
-		</o:OfficeDocumentSettings>
-	</xml>
-	<![endif]-->
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="format-detection" content="date=no" />
-	<meta name="format-detection" content="address=no" />
-	<meta name="format-detection" content="telephone=no" />
-	<title>Reaya Healthcare Partner</title>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    <!-- CSS Reset : BEGIN -->
+    <style>
+
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        html,
+body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    background: #f1f1f1;
+}
+
+/* What it does: Stops email clients resizing small text. */
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* What it does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,
+td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+
+/* What it does: Fixes webkit padding issue. */
+table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+}
+
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+    -ms-interpolation-mode:bicubic;
+}
+
+/* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
+a {
+    text-decoration: none;
+}
+
+/* What it does: A work-around for email clients meddling in triggered links. */
+*[x-apple-data-detectors],  /* iOS */
+.unstyle-auto-detected-links *,
+.aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+/* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+.a6S {
+    display: none !important;
+    opacity: 0.01 !important;
+}
+
+/* What it does: Prevents Gmail from changing the text color in conversation threads. */
+.im {
+    color: inherit !important;
+}
+
+/* If the above doesn't work, add a .g-img class to any image in question. */
+img.g-img + div {
+    display: none !important;
+}
+
+/* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+/* Create one of these media queries for each additional viewport size you'd like to fix */
+
+/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+    u ~ div .email-container {
+        min-width: 320px !important;
+    }
+}
+/* iPhone 6, 6S, 7, 8, and X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+    u ~ div .email-container {
+        min-width: 375px !important;
+    }
+}
+/* iPhone 6+, 7+, and 8+ */
+@media only screen and (min-device-width: 414px) {
+    u ~ div .email-container {
+        min-width: 414px !important;
+    }
+}
+
+    </style>
+
+    <!-- CSS Reset : END -->
+
+    <!-- Progressive Enhancements : BEGIN -->
+    <style>
+
+	    .primary{
+	background: #30e3ca;
+}
+.bg_white{
+	background: #ffffff;
+}
+.bg_light{
+	background: #fafafa;
+}
+.bg_burble{
+	background: #711DFF;
+}
+.bg_dark{
+	background: rgba(0,0,0,.8);
+}
+.email-section{
+	padding:2.5em;
+}
+
+/*BUTTON*/
+.btn{
+	padding: 7px 60px;
+	display: inline-block;
+}
+.btn.btn-primary{
+	border-radius: 55px;
+	background: #261E59;
+	color: #ffffff;
+}
+.btn.btn-white{
+	border-radius: 5px;
+	background: #ffffff;
+	color: #000000;
+}
+.btn.btn-white-outline{
+	border-radius: 5px;
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.btn.btn-black-outline{
+	border-radius: 0px;
+	background: transparent;
+	border: 2px solid #000;
+	color: #000;
+	font-weight: 700;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+	color: #000000;
+	margin-top: 0;
+	font-weight: 400;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: rgba(0,0,0,.4);
+}
+
+a{
+	color: #30e3ca;
+}
+
+table{
+}
+/*LOGO*/
+
+.logo h1{
+	margin: 0;
+}
+.logo h1 a{
+	color: #30e3ca;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+}
+
+/*HERO*/
+.hero{
+	position: relative;
+	z-index: 0;
+}
+
+.hero .text{
+	color: rgba(0,0,0,.3);
+}
+.hero .text h2{
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.1;
+}
+.hero .text h3{
+	font-size: 24px;
+	font-weight: 300;
+}
+.hero .text h2 span{
+	font-weight: 600;
+	color: #30e3ca;
+}
 
 
-	<style type="text/css" media="screen">
-		/* Linked Styles */
-		body {
-			padding: 0 !important;
-			margin: 0 !important;
-			display: block !important;
-			min-width: 100% !important;
-			width: 100% !important;
-			background: #f1f1f1;
-			-webkit-text-size-adjust: none
-		}
+/*HEADING SECTION*/
+.heading-section{
+}
+.heading-section h2{
+	color: #000000;
+	font-size: 28px;
+	margin-top: 0;
+	line-height: 1.4;
+	font-weight: 400;
+}
+.heading-section .subheading{
+	margin-bottom: 20px !important;
+	display: inline-block;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: rgba(0,0,0,.4);
+	position: relative;
+}
+.heading-section .subheading::after{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #30e3ca;
+	margin: 0 auto;
+}
 
-		a {
-			color: #ff0000;
-			text-decoration: none
-		}
+.heading-section-white{
+	color: rgba(255,255,255,.8);
+}
+.heading-section-white h2{
+	line-height: 1;
+	padding-bottom: 0;
+}
+.heading-section-white h2{
+	color: #ffffff;
+}
+.heading-section-white .subheading{
+	margin-bottom: 0;
+	display: inline-block;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: rgba(255,255,255,.4);
+}
 
-		p {
-			padding: 0 !important;
-			margin: 0 !important
-		}
 
-		img {
-			-ms-interpolation-mode: bicubic;
-			/* Allow smoother rendering of resized image in Internet Explorer */
-		}
+ul.social{
+	padding: 0;
+}
+ul.social li{
+	display: inline-block;
+	margin-right: 10px;
+}
 
-		.text4 a {
-			color: #777777 !important;
-			text-decoration: none !important;
-		}
+/*FOOTER*/
 
-		.h2-white-m-center a {
-			color: #ffffff !important;
-		}
+.footer{
+	border-top: 1px solid rgba(0,0,0,.05);
+	color: rgba(0,0,0,.5);
+}
+.footer .heading{
+	color: #000;
+	font-size: 20px;
+}
+.footer ul{
+	margin: 0;
+	padding: 0;
+}
+.footer ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.footer ul li a{
+	color: rgba(0,0,0,1);
+}
 
-		.h4-white a {
-			color: #ffffff !important;
-		}
+.font-bold {
+	font-weight: bold;
+}
 
-		.h3-white a {
-			color: #ffffff !important;
-		}
 
-		.text-top-white a {
-			color: #ffffff !important;
-		}
+@media screen and (max-width: 500px) {
 
-		.text-white-m-center a {
-			color: #ffffff !important;
-		}
 
-		.text-white-r-m-center a {
-			color: #ffffff !important;
-		}
+}
 
-		.text-white-center a {
-			color: #ffffff !important;
-		}
+.logo img {
+	width: 150px; 
+	max-width: 600px; 
+	height: auto; 
+	margin: auto; 
+	display: block; 
+	margin-top: 20px;
+}
+    </style>
 
-		.text-white a {
-			color: #ffffff !important;
-		}
 
-		.text-mont a {
-			color: #ffffff !important;
-		}
-
-		.text-day3 a {
-			color: #ffffff !important;
-		}
-
-		.yellow a {
-			color: #ebb44a !important;
-		}
-
-		.green a {
-			color: #3cb371 !important;
-		}
-
-		.red a {
-			color: #ff5e56 !important;
-		}
-
-		.text-list a {
-			color: #777777 !important;
-		}
-
-		.text-top a {
-			color: #777777 !important;
-		}
-
-		/* Mobile styles */
-		@media only screen and (max-device-width: 480px),
-		only screen and (max-width: 480px) {
-			div[class='mobile-br-1'] {
-				height: 1px !important;
-				background: #e8e8e8 !important;
-				display: block !important;
-			}
-
-			div[class='mobile-br-5'] {
-				height: 5px !important;
-			}
-
-			div[class='mobile-br-10'] {
-				height: 10px !important;
-			}
-
-			div[class='mobile-br-15'] {
-				height: 15px !important;
-			}
-
-			th[class='m-td'],
-			td[class='m-td'],
-			div[class='hide-for-mobile'],
-			span[class='hide-for-mobile'] {
-				display: none !important;
-				width: 0 !important;
-				height: 0 !important;
-				font-size: 0 !important;
-				line-height: 0 !important;
-				min-height: 0 !important;
-			}
-
-			span[class='mobile-block'] {
-				display: block !important;
-			}
-
-			div[class='text-top'],
-			div[class='h2-white-m-center'],
-			div[class='text-white-m-center'],
-			div[class='text-white-r-m-center'],
-			div[class='h2-m-center'],
-			div[class='text-m-center'],
-			div[class='text-r-m-center'],
-			div[class='text-top-white'] {
-				text-align: center !important;
-			}
-
-			div[class='text-right'] {
-				text-align: left !important;
-			}
-
-			div[class='img-m-center'] {
-				text-align: center !important;
-			}
-
-			div[class='fluid-img'] img,
-			td[class='fluid-img'] img {
-				width: 100% !important;
-				max-width: 100% !important;
-				height: auto !important;
-			}
-
-			div[class='fluid-img-logo'] img {
-				width: 100% !important;
-				max-width: 260px !important;
-				height: auto !important;
-			}
-
-			table[class='mobile-shell'] {
-				width: 100% !important;
-				min-width: 100% !important;
-			}
-
-			table[class='center'] {
-				margin: 0 auto;
-			}
-
-			th[class='column-top'],
-			th[class='column'] {
-				float: left !important;
-				width: 100% !important;
-				display: block !important;
-			}
-
-			td[class='td'] {
-				width: 100% !important;
-				min-width: 100% !important;
-			}
-
-			td[class='content-spacing'] {
-				width: 15px !important;
-			}
-		}
-	</style>
 </head>
 
-<body class="body"
-	style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#f1f1f1; -webkit-text-size-adjust:none">
-	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f1f1f1">
-		<tr>
-			<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="1"></td>
-			<td align="center" valign="top">
-				<table width="650" border="0" cellspacing="0" cellpadding="0" class="mobile-shell"
-					style="border: 10px solid #1d81c9;">
-					<tr>
-						<td class="td"
-							style="width:650px; min-width:650px; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
-
-							<!-- Top Bar -->
-							<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1d81c9">
-								<tr>
-									<!-- Column -->
-									<th class="column-top"
-										style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top; Margin:0"
-										width="440">
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
-											<tr>
-												<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="30">
-												</td>
-												<td>
-													<table class="center" border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
-														<tr>
-															<td class="text-top-white"
-																style="color:#ffffff; font-family:Arial,sans-serif; font-size:11px; line-height:16px; text-align:center; text-transform:uppercase">
-																<multiline>
-																	<a href="#" target="_blank" class="link-white-u"
-																		style="color:#ffffff; text-decoration:underline"><span class="link-white-u"
-																			style="color:#ffffff; text-decoration:underline">This Email Generated From Reaya
-																			Healthcare Partner</span></a>
-																</multiline>
-															</td>
-														</tr>
-													</table>
-													<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-														style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-														<tr>
-															<td height="14" class="spacer"
-																style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																&nbsp;</td>
-														</tr>
-													</table>
-												</td>
-												<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="30">
-												</td>
-											</tr>
-										</table>
-									</th>
-									<!-- END Column -->
-								</tr>
-							</table>
-
-							<!-- END Top Bar -->
-
-							<repeater>
-								<!-- Section 1 -->
-								<layout label='Sectio 1'>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td>
-												<div class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left"><img
-														src="images/full_width_image1.jpg" border="0" width="650" height="350" alt="" /></div>
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
-													<tr>
-														<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left"
-															width="30"></td>
-														<td>
-															<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																<tr>
-																	<td height="24" class="spacer"
-																		style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																		&nbsp;</td>
-																</tr>
-															</table>
-
-															<div class="h4"
-																style="color:#2c2c2c; font-family:Arial,sans-serif; font-size:18px; line-height:24px; text-align:left">
-																Dear Dr. Moustafa Ahmed Elwakil.</div>
-															<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																<tr>
-																	<td height="10" class="spacer"
-																		style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																		&nbsp;</td>
-																</tr>
-															</table>
-
-
-															<div class="text2"
-																style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left">
-																This is a daily report from your Clinic delved from Reaya Healthcare Partner, If you
-																interested in other information to help you track your clinic click on this button below
-																to select from other data section to reset your daily report to deliver this new
-																information</div>
-															<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																<tr>
-																	<td height="14" class="spacer"
-																		style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																		&nbsp;</td>
-																</tr>
-															</table>
-
-
-															<!-- Butoon -->
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td align="left">
-																		<table border="0" cellspacing="0" cellpadding="0" bgcolor="#F25022">
-																			<tr>
-																				<td class="content-spacing"
-																					style="font-size:0pt; line-height:0pt; text-align:left" width="10"></td>
-																				<td>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="8" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="text-button"
-																						style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																						<a href="#" target="_blank" class="link-white"
-																							style="color:#ffffff; text-decoration:none"><span class="link-white"
-																								style="color:#ffffff; text-decoration:none">Get another
-																								information</span></a>
-																					</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="8" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																				<td class="content-spacing"
-																					style="font-size:0pt; line-height:0pt; text-align:left" width="10"></td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-															<!-- END Butoon -->
-															<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																<tr>
-																	<td height="24" class="spacer"
-																		style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																		&nbsp;</td>
-																</tr>
-															</table>
-
-														</td>
-														<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left"
-															width="30"></td>
-													</tr>
-												</table>
-											</td>
-										</tr>
-									</table>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-										style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-										<tr>
-											<td height="20" class="spacer"
-												style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;
-											</td>
-										</tr>
-									</table>
-
-								</layout>
-								<!-- END Section 1 -->
-
-								<!-- Section 2 -->
-								<layout label='Section 2'>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td>
-												<table width="100%" border="0" cellspacing="0" cellpadding="0">
-													<tr>
-														<!-- Column -->
-														<th class="column"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0; border: 5px solid mediumseagreen;"
-															width="200" valign="top">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td>
-																		<!-- Head -->
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fefefe">
-																			<tr>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="10" bgcolor="#3cb371"></td>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="20"></td>
-																				<td>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="18" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="h5"
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:14px; line-height:20px; text-align:left">
-																						TOTAL <br />NEW VISIT</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="18" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="30"></td>
-																			</tr>
-																		</table>
-																		<!-- END Head -->
-
-																		<table style="width: 100%;">
-																			<tr>
-																				<td>
-																					<h1
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:90px; line-height:20px; text-align:center">
-																						50</h1>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</th>
-														<!-- END Column -->
-														<!-- Column -->
-														<th class="column"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0"
-															width="25">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td>
-																		<div style="font-size:0pt; line-height:0pt;" class="mobile-br-15"></div>
-
-																	</td>
-																</tr>
-															</table>
-														</th>
-														<!-- END Column -->
-														<!-- Column -->
-														<th class="column"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0;  border: 5px solid #ebb44a;"
-															width="200" valign="top">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td>
-																		<!-- Head -->
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fefefe">
-																			<tr>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="10" bgcolor="#ebb44a"></td>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="20"></td>
-																				<td>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="18" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="h5"
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:14px; line-height:20px; text-align:left">
-																						TOTAL <br />FOLOWUP</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="18" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="30"></td>
-																			</tr>
-																		</table>
-																		<!-- END Head -->
-
-																		<table style="width: 100%;">
-																			<tr>
-																				<td>
-																					<h1
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:90px; line-height:20px; text-align:center">
-																						20</h1>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</th>
-														<!-- END Column -->
-														<!-- Column -->
-														<th class="column"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0"
-															width="25">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td>
-																		<div style="font-size:0pt; line-height:0pt;" class="mobile-br-15"></div>
-
-																	</td>
-																</tr>
-															</table>
-														</th>
-														<!-- END Column -->
-														<!-- Column -->
-														<th class="column"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0;  border: 5px solid #ff5e56;"
-															width="200" valign="top">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td>
-																		<!-- Head -->
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fefefe">
-																			<tr>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="10" bgcolor="#ff5e56"></td>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="20"></td>
-																				<td>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="18" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="h5"
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:14px; line-height:20px; text-align:left">
-																						TOTAL <br />PROCEDURE</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="18" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="30"></td>
-																			</tr>
-																		</table>
-																		<!-- END Head -->
-
-																		<table style="width: 100%;">
-																			<tr>
-																				<td>
-																					<h1
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:90px; line-height:20px; text-align:center">
-																						08</h1>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</th>
-														<!-- END Column -->
-													</tr>
-												</table>
-											</td>
-										</tr>
-									</table>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-										style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-										<tr>
-											<td height="20" class="spacer"
-												style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;
-											</td>
-										</tr>
-									</table>
-
-								</layout>
-								<!-- END Section 2 -->
-
-								<!-- Section 4 -->
-								<layout label='Section 4'>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td>
-												<!-- Row Green -->
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
-													<tr>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="10"
-															bgcolor="#3cb371"></td>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="22"></td>
-														<td>
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<!-- Column -->
-																	<th class="column"
-																		style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0"
-																		width="404">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td width="404">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="15" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="h5-2"
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:14px; line-height:20px; text-align:left; text-transform:uppercase">
-																						Another Additional Information</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="6" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="text2"
-																						style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left">
-																						Another Additional Information Another Additional Information</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="15" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																			</tr>
-																		</table>
-																	</th>
-																	<!-- END Column -->
-																	<th class="m-td" style="font-size:0pt; line-height:0pt; text-align:left" width="18">
-																	</th>
-																	<!-- END Column -->
-																	<!-- Column -->
-																	<th class="column"
-																		style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td>
-																					<div class="hide-for-mobile">
-																						<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																							class="spacer"
-																							style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																							<tr>
-																								<td height="10" class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									&nbsp;</td>
-																							</tr>
-																						</table>
-
-																					</div>
-																					<!-- Button -->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																						>
-																						<tr>
-																							<td bgcolor="#3cb371" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#3cb371" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#3cb371" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#3cb371" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																						</tr>
-																					</table>
-																					<!-- END Button -->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="10" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																			</tr>
-																		</table>
-																	</th>
-																	<!-- END Column -->
-																</tr>
-															</table>
-														</td>
-														<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left"
-															width="30"></td>
-													</tr>
-												</table>
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-													style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-													<tr>
-														<td height="10" class="spacer"
-															style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-															&nbsp;</td>
-													</tr>
-												</table>
-
-												<!-- END Row Green -->
-											</td>
-										</tr>
-									</table>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-										style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-										<tr>
-											<td height="10" class="spacer"
-												style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;
-											</td>
-										</tr>
-									</table>
-
-								</layout>
-								<!-- END Section 4 -->
-
-								<!-- Section 5 -->
-								<layout label='Section 5'>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td>
-												<!-- Row Yellow -->
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
-													<tr>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="10"
-															bgcolor="#ebb44a"></td>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="22"></td>
-														<td>
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<!-- Column -->
-																	<th class="column"
-																		style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0"
-																		width="404">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td width="404">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="15" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="h5-2"
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:14px; line-height:20px; text-align:left; text-transform:uppercase">
-																						Another Additional Information</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="6" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="text2"
-																						style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left">
-																						Another Additional Information Another Additional Information.</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="15" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																			</tr>
-																		</table>
-																	</th>
-																	<!-- END Column -->
-																	<th class="m-td" style="font-size:0pt; line-height:0pt; text-align:left" width="18">
-																	</th>
-																	<!-- END Column -->
-																	<!-- Column -->
-																	<th class="column"
-																		style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td>
-																					<div class="hide-for-mobile">
-																						<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																							class="spacer"
-																							style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																							<tr>
-																								<td height="10" class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									&nbsp;</td>
-																							</tr>
-																						</table>
-
-																					</div>
-																					<!-- Button -->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																						>
-																						<tr>
-																							<td bgcolor="#ebb44a" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#ebb44a" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#ebb44a" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#ebb44a" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																						</tr>
-																					</table>
-																					<!-- END Button -->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="10" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																			</tr>
-																		</table>
-																	</th>
-																	<!-- END Column -->
-																</tr>
-															</table>
-														</td>
-														<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left"
-															width="30"></td>
-													</tr>
-												</table>
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-													style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-													<tr>
-														<td height="10" class="spacer"
-															style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-															&nbsp;</td>
-													</tr>
-												</table>
-
-												<!-- END Row Yellow -->
-											</td>
-										</tr>
-									</table>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-										style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-										<tr>
-											<td height="10" class="spacer"
-												style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;
-											</td>
-										</tr>
-									</table>
-
-								</layout>
-								<!-- END Section 5 -->
-
-								<!-- Section 6 -->
-								<layout label='Section 6'>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td>
-												<!-- Row Red -->
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
-													<tr>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="10"
-															bgcolor="#ff5e56"></td>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="22"></td>
-														<td>
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<!-- Column -->
-																	<th class="column"
-																		style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0"
-																		width="404">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td width="404">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="15" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="h5-2"
-																						style="color:#555555; font-family:Arial,sans-serif; font-size:14px; line-height:20px; text-align:left; text-transform:uppercase">
-																						Another Additional Information</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="6" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="text2"
-																						style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left">
-																						Another Additional Information Another Additional Information.</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="15" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																			</tr>
-																		</table>
-																	</th>
-																	<!-- END Column -->
-																	<th class="m-td" style="font-size:0pt; line-height:0pt; text-align:left" width="18">
-																	</th>
-																	<!-- END Column -->
-																	<!-- Column -->
-																	<th class="column"
-																		style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td>
-																					<div class="hide-for-mobile">
-																						<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																							class="spacer"
-																							style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																							<tr>
-																								<td height="10" class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									&nbsp;</td>
-																							</tr>
-																						</table>
-
-																					</div>
-																					<!-- Button -->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																						>
-																						<tr>
-																							<td bgcolor="#ff5e56" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#ff5e56" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#ff5e56" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																							<td width="5"></td>
-																							<td bgcolor="#ff5e56" style="border-radius: 100%;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																								<div class="text-button"
-																									style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																									<a href="#" target="_blank" class="link-white"
-																										style="color:#ffffff; text-decoration:none"><span class="link-white"
-																											style="color:#ffffff; text-decoration:none">50</span></a></div>
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																									class="spacer"
-																									style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																									<tr>
-																										<td height="12" class="spacer"
-																											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																											&nbsp;</td>
-																									</tr>
-																								</table>
-
-																							</td>
-																						</tr>
-																					</table>
-																					<!-- END Button -->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="10" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																			</tr>
-																		</table>
-																	</th>
-																	<!-- END Column -->
-																</tr>
-															</table>
-														</td>
-														<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left"
-															width="30"></td>
-													</tr>
-												</table>
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-													style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-													<tr>
-														<td height="10" class="spacer"
-															style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-															&nbsp;</td>
-													</tr>
-												</table>
-
-												<!-- END Row Red -->
-											</td>
-										</tr>
-									</table>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-										style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-										<tr>
-											<td height="10" class="spacer"
-												style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;
-											</td>
-										</tr>
-									</table>
-
-								</layout>
-								<!-- END Section 6 -->
-
-								<!-- Section 8 -->
-								<layout label='Section 8'>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
-										<tr>
-											<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="30">
-											</td>
-											<td>
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-													style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-													<tr>
-														<td height="30" class="spacer"
-															style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-															&nbsp;</td>
-													</tr>
-												</table>
-
-												<!-- Article Image On the Left -->
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" dir="rtl"
-													style="direction: rtl;">
-													<tr>
-														<!-- Column -->
-														<th class="column-top"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top; Margin:0"
-															dir="ltr" style="direction: ltr;" width="220">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td>
-																		<div class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left"><img
-																				src="images/article_image4.jpg" border="0" width="220" height="250" alt="" />
-																		</div>
-																	</td>
-																</tr>
-															</table>
-														</th>
-														<!-- END Column -->
-														<!-- Column -->
-														<th class="column-top"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top; Margin:0"
-															dir="ltr" style="direction: ltr;" width="30">
-															<div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
-
-															<div style="font-size:0pt; line-height:0pt;" class="mobile-br-15"></div>
-
-														</th>
-														<!-- END Column -->
-														<!-- Column -->
-														<th class="column-top"
-															style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top; Margin:0"
-															dir="ltr" style="direction: ltr;">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td align="left">
-																		<div class="h3"
-																			style="color:#2c2c2c; font-family:Arial,sans-serif; font-size:18px; line-height:24px; text-align:left">
-																			Reaya New Feature and Updates</div>
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td height="14" class="spacer"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#e8e8e8"
-																			class="border"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td bgcolor="#e8e8e8" height="1" class="border"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td height="20" class="spacer"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-
-
-																		<!-- List -->
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td valign="top" class="img"
-																					style="font-size:0pt; line-height:0pt; text-align:left" width="12">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="5" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-																					<img src="images/bullet_yellow.jpg" border="0" width="3" height="10" alt="" />
-																				</td>
-																				<td>
-																					<div class="text-list3"
-																						style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left; text-transform:uppercase">
-																						Feature Kaza Wekaza</div>
-																				</td>
-																			</tr>
-																		</table>
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td height="8" class="spacer"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-
-
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td valign="top" class="img"
-																					style="font-size:0pt; line-height:0pt; text-align:left" width="12">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="5" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-																					<img src="images/bullet_yellow.jpg" border="0" width="3" height="10" alt="" />
-																				</td>
-																				<td>
-																					<div class="text-list3"
-																						style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left; text-transform:uppercase">
-																						Another Feature Kaza Wekaza</div>
-																				</td>
-																			</tr>
-																		</table>
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td height="8" class="spacer"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td valign="top" class="img"
-																					style="font-size:0pt; line-height:0pt; text-align:left" width="12">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="5" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-																					<img src="images/bullet_yellow.jpg" border="0" width="3" height="10" alt="" />
-																				</td>
-																				<td>
-																					<div class="text-list3"
-																						style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left; text-transform:uppercase">
-																						Another and Another Feature Kaza Wekaza</div>
-																				</td>
-																			</tr>
-																		</table>
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td height="8" class="spacer"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td valign="top" class="img"
-																					style="font-size:0pt; line-height:0pt; text-align:left" width="12">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="5" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-																					<img src="images/bullet_yellow.jpg" border="0" width="3" height="10" alt="" />
-																				</td>
-																				<td>
-																					<div class="text-list3"
-																						style="color:#777777; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left; text-transform:uppercase">
-																						Another and Another Feature Kaza</div>
-																				</td>
-																			</tr>
-																		</table>
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td height="8" class="spacer"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-
-																		<!-- END List -->
-
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			<tr>
-																				<td height="16" class="spacer"
-																					style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																					&nbsp;</td>
-																			</tr>
-																		</table>
-
-																		<!-- Button -->
-																		<table border="0" cellspacing="0" cellpadding="0" bgcolor="#FFB900"
-																			class="mobile-shell">
-																			<tr>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="20"></td>
-																				<td>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="12" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																					<div class="text-button"
-																						style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:16px; text-align:center; text-transform:uppercase">
-																						<a href="#" target="_blank" class="link-white"
-																							style="color:#ffffff; text-decoration:none"><span class="link-white"
-																								style="color:#ffffff; text-decoration:none">Visit Reaya
-																								Website</span></a>
-																					</div>
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																						style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																						<tr>
-																							<td height="12" class="spacer"
-																								style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																								&nbsp;</td>
-																						</tr>
-																					</table>
-
-																				</td>
-																				<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"
-																					width="20"></td>
-																			</tr>
-																		</table>
-																		<!-- END Button -->
-																	</td>
-																</tr>
-															</table>
-														</th>
-														<!-- END Column -->
-													</tr>
-												</table>
-												<!-- END Article Image On the Left -->
-												<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-													style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-													<tr>
-														<td height="30" class="spacer"
-															style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-															&nbsp;</td>
-													</tr>
-												</table>
-
-											</td>
-											<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="30">
-											</td>
-										</tr>
-									</table>
-
-								</layout>
-								<!-- END Section 8 -->
-							</repeater>
-
-							<!-- Footer -->
-							<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1d81c9">
-								<tr>
-									<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="30"></td>
-									<td>
-										<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-											style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-											<tr>
-												<td height="30" class="spacer"
-													style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;
-												</td>
-											</tr>
-										</table>
-
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
-											<tr>
-												<!-- Column -->
-												<th class="column-top"
-													style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top; Margin:0; width: 350px;">
-													<table width="100%" border="0" cellspacing="0" cellpadding="0">
-														<tr>
-															<td>
-																<div class="h2-white-m-center"
-																	style="color:#ffffff; font-family:Arial,sans-serif; font-size:22px; line-height:26px; text-align:left; font-weight:bold; text-transform:uppercase">
-																	<img src="images/z-logo.png"></div>
-																<table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer"
-																	style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																	<tr>
-																		<td height="4" class="spacer"
-																			style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
-																			&nbsp;</td>
-																	</tr>
-																</table>
-
-																<div class="text-white-m-center"
-																	style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left">
-																	Reaya Healthcare Partner Owner</div>
-																<div style="font-size:0pt; line-height:0pt;" class="mobile-br-15"></div>
-
-															</td>
-														</tr>
-													</table>
-												</th>
-												<!-- END Column -->
-												<!-- Column -->
-												<th class="column-top"
-													style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top; Margin:0">
-													<table width="100%" border="0" cellspacing="0" cellpadding="0">
-														<tr>
-															<td>
-																<div class="text-white-m-center"
-																	style="color:#ffffff; font-family:Arial,sans-serif; font-size:12px; line-height:20px; text-align:left">
-																	<a href="#" target="_blank" class="link-white"
-																		style="color:#ffffff; text-decoration:none"><span class="link-white"
-																			style="color:#ffffff; text-decoration:none">6 Abd Al-Meged st. Bolkly</span></a>,
-																	Alexandria, Egypt <br />Phone: <a href="tel:01122264111" target="_blank"
-																		class="link-white" style="color:#ffffff; text-decoration:none"><span
-																			class="link-white" style="color:#ffffff; text-decoration:none">+2 (011)
-																			222-64-111</span></a>
-																	<br />Email: <a href="tel:01122264111" target="_blank" class="link-white"
-																		style="color:#ffffff; text-decoration:none"><span class="link-white"
-																			style="color:#ffffff; text-decoration:none">info@zellige.com</span></a>
-																</div>
-																<div style="font-size:0pt; line-height:0pt;" class="mobile-br-15"></div>
-
-															</td>
-														</tr>
-													</table>
-												</th>
-												<!-- END Column -->
-											</tr>
-										</table>
-
-									</td>
-									<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="30"></td>
-								</tr>
-							</table>
-
-							<!-- END Footer -->
-						</td>
-					</tr>
-				</table>
-			</td>
-			<td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="1"></td>
-		</tr>
-	</table>
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
+	<center style="width: 100%; background-color: #f1f1f1;">
+    <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+      &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+    <div style="max-width: 600px; margin: 0 auto; box-shadow: 0px 0px 0px 50px #711dff, 0px 0px 0px 100px white;" class="email-container">
+    	<!-- BEGIN BODY -->
+      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+      	<tr>
+          <td valign="top" class="bg_burble" style="padding: 1em 2.5em 0 2.5em;">
+          	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+          		<tr>
+          			<td class="logo" style="text-align: center;">
+			            <h1><a href="#">
+								<img src="images/logo.png" alt="">
+							</a>
+						</h1>
+			          </td>
+          		</tr>
+          	</table>
+          </td>
+	      </tr><!-- end tr -->
+	      <tr>
+          <td valign="middle" class="hero bg_burble" style="padding: 3em 0 2em 0;">
+            <img src="images/figer.png" alt="" style="width: 350px; max-width: 600px; height: auto; margin: auto; display: block; padding-left: 60px;">
+          </td>
+	      </tr><!-- end tr -->
+		  <tr>
+          <td valign="middle" class="hero bg_burble" style="padding: 2em 0 4em 0;">
+            <table>
+            	<tr>
+            		<td>
+            			<div class="text" style="padding: 0 2.5em; text-align: center; margin-top: -300px;">
+							<div style="position: relative; top: -140px; text-align: left;">
+								<h2 style="color: #261E59; font-size: 60px;">Hey <br> Moe!,</h2>
+								<h3 style="color: white;">How are you <br> doing today?,</h3>
+							</div>
+							<div style="background-image: url(images/brackets.png); background-size: cover; height: 116px;">
+								<h2>Thanks for signing up
+									<br>to Localeyed!</h2>
+							</div>
+            				
+            				<p style="text-align: left; color: white; margin-top: 70px; padding: 20px 50px;">Given that we are still getting to know each other <br>
+								we promise you 3 things:</p>
+								<ul style="color: #261E59; text-align: left; padding: 20px 80px;">
+									<li class="font-bold">
+										We will always keep updating our library with top notch quality photos.
+									</li>
+									<li class="font-bold">
+										You will never feel unheard so if you have any suggestions please feel free to reach out.
+									</li>
+									<li class="font-bold">
+										We’ll always leave you the last piece of pizza.
+									</li>
+								</ul>
+								<h1 style="color: white; font-size: 3.3rem; text-align: left; line-height: 0.8; padding: 20px 40px;">
+									let’s create <br> beautiful things <br> together!
+								</h1>
+            				<p>
+								<a href="#" class="btn btn-primary" style="margin: 20px;">Start</a>
+							</p>
+							<a href="#" style="color: #ffffff; text-transform: capitalize;">
+								Localeyed.com
+							</a>
+							<small style="color: #261E59; margin: 20px; margin-bottom: 40px; display: block;">
+								Powered by Ali Riffai Photography
+							</small>
+							<small style="color: #ffffff; margin: 20px; display: block;">
+								This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error, please notify the system manager.
+							</small>
+							<small style="color: #261E59; margin: 20px; display: block;">
+								Licensed as a Photography studio – Branch of Ali Riffai Photography
+							</small>
+            			</div>
+            		</td>
+            	</tr>
+            </table>
+          </td>
+	      </tr><!-- end tr -->
+      <!-- 1 Column Text + Button : END -->
+      </table>
+    </div>
+  </center>
 </body>
-
 </html>
